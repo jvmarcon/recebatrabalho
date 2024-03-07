@@ -1,0 +1,58 @@
+body, ul, li, p{
+    margin: Opx;
+    padding: 0px;
+    list-style: none;  
+    font-size: 1.2rem;
+    font-family: Comic;
+    text-decoration: blink;
+    
+}
+a{
+text-decoration: blink;
+color: white;
+}
+
+.header{
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+text-decoration: blink;
+}
+
+.menu{
+ display: flex;
+
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+/* Define as características da TAG ancor */
+a{
+    text-decoration: blink;     /* tira o sublinhado do link */
+    color: orangered;  
+    align-content: center;          /* Cor do texto */
+}
+
+/* Define as características do header */ 
+.header{
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+text-decoration: blink; 
+}
+
+
+body{
+    background-color: rgb(40, 40, 43);
+}
