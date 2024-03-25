@@ -38,7 +38,7 @@ text-decoration: blink;
 /* Define as características da TAG ancor */
 a{
     text-decoration: blink;     /* tira o sublinhado do link */
-    color: orangered;  
+    color: rgb(255, 217, 0);  
     align-content: center;          /* Cor do texto */
 }
 
@@ -54,5 +54,21 @@ text-decoration: blink;
 
 
 body{
-    background-color: rgb(40, 40, 43);
+    background-color: rgb(80, 80, 80);
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+div {
+    width: 100%;
+text-align: center;
+color: white;
+padding: 20px;
+background-image: linear-gradient(to right, #ff0000, #2e2e2e);
 }
